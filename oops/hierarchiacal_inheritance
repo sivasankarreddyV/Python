@@ -1,4 +1,4 @@
-#Heirarchcal inheritance (multiple derived classes from one base class)
+#Heirarchical inheritance (multiple derived classes from one base class)
 #person is base or super or parent
 #student is derived or subclass or child class
 #teacher is a derived or subclass or child class
