@@ -1,0 +1,93 @@
+#list data types
+x = ["apple", "banana", "cherry"]
+print(x)
+print(type(x)) 
+
+#allow duplicate values
+list = ["apple", "banana", "cherry", "apple", "cherry"]
+print(list)
+
+
+#append() method
+#adds an element at the end of the list
+list=["siva", "sai", "Reddy"]
+list.append("parni")
+print(list)
+
+
+#clear() method
+#remove all the elements in the list
+fruits = ["apple", "banana", "cherry"]
+fruits.clear()
+print(fruits)
+
+
+#copy() method
+#copy all the elements in the list
+list=["siva", "sai", "Reddy"]
+list.copy()
+print(list)
+
+
+
+#count() method
+#count specified value in the list
+list=["siva", "sai", "Reddy"]
+l=list.count("siva")
+print(l)
+
+
+#extend() method
+#add all the elements from the another list
+fruits=["apple", "banana", "cherry"]
+cars=["volvo", "BMW", "defender"]
+fruits.extend(cars)
+print(fruits)
+
+
+#index() method
+#returns the index of the specified value 
+list=["siva", "sai", "Reddy"]
+l=list.index("sai")
+print(l)
+
+
+#insert() method
+#adds an element at the specified position
+list=["siva", "sai", "Reddy"]
+list.insert(1,"parni")
+print(list)
+
+
+#pop() method
+#remove the element at the specified position
+fruits = ["apple", "banana", "cherry"]
+fruits.pop(1)
+print(fruits)
+
+
+#remove() method
+#remove the element with the specified value
+list=["siva", "sai", "Reddy"]
+list.remove("Reddy")
+print(list)
+
+
+#reverse() method
+#reverse all the elements in the list
+list=["siva", "sai", "Reddy"]
+list.reverse()
+print(list)
+
+
+#sort() method
+#alphabetical order
+list=["sai", "reddy", "anitha"]
+list.sort()
+print(list)
+
+
+#using list constructor()
+l=list(("siva", "sai", "Reddy"))
+print(l)
+
