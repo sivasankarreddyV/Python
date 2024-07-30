@@ -1,0 +1,131 @@
+#tuple operations
+t=(1,2,"siva",4,"sai")
+print(t)
+
+
+#using len() function
+tuple = (1, 2, 3, 4, 5)
+print(len(tuple))
+
+
+#tuple
+a=("siva",)
+print(type(a))
+
+#not a tuple
+b=("siva")
+print(type(b))
+
+
+#tuple items`
+t1 = ("apple", "banana", "cherry")
+t2 = (1, 5, 7, 9, 3)
+t3 = (True, False, False)
+
+print(t1)
+print(t2)
+print(t3)
+
+print(type(t1))
+print(type(t2))
+print(type(t3))
+
+
+#using tuple() constructor
+a=tuple(("siva",1,"sai",2,3,4,5))
+print(type(a))"""
+
+
+# Creating a tuple
+t1 = (1, 2, 3, 4, 5)
+t2 = ('a', 'b', 'c')
+t3 = (1, 'Hello', 3.14, True)
+
+# Accessing elements
+print(f"First element of t1: {t1[0]}")
+print(f"Second element of t2: {t2[1]}")
+print(f"Third element of t3: {t3[2]}")
+
+# Negative indexing
+print(f"Last element of t1: {t1[-1]}")
+
+# Concatenation
+t4 = t1 + t2
+print(f"Concatenated t: {t4}")
+
+# Repetition
+t5 = t2 * 3
+print(f"Repeated t: {t5}")
+
+# Slicing
+print(f"Slice of t1 is: {t1[1:3]}")
+
+#length of a tuple
+print(f"length of t3 is: {len(t3)}")
+
+
+
+#add new item
+t=("siva","sai","parni")
+y=list(t)
+y.append("reddy")
+t=tuple(y)
+print(t)
+
+
+#Convert the tuple into a list to be able to change it:
+t=("siva","sai","parni")
+y=list(t)
+y[1]=("reddy")
+t=tuple(y)
+print(t)
+
+#Create a new tuple with the value "pine", and add that tuple:
+tuple=("apple", "orange", "date")
+y=("pine",)
+tuple=tuple+y
+print(tuple)
+
+
+#remove tuple
+s=("siva","sai","parni")
+y=list(s)
+y.remove("sai")
+s=tuple(y)
+print(s)
+
+
+#Loop Through the Index Numbers
+#Use the range() and len() function to create sutainable iterable
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+  print(thistuple[i])
+
+
+#Using a While Loop
+t= ("apple", "banana", "cherry")
+i=0
+while i<len(t):
+    print(t[i])
+    i=i+1
+
+
+#using a while loop
+t= ("apple", "banana", "cherry")
+i=0
+while i<len(t):
+    print(t[i])
+    i=i+1
+
+
+#tuple methods
+#count method
+t1 = (1, 2, 2, 3, 4, 4, 4, 5)
+count=t1.count(4)
+print(count)
+
+
+# Finding the index of a value
+index=t1.index(3)
+print(index)
+
