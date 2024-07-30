@@ -1,0 +1,65 @@
+# using input function
+#format method
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print(f"Hello this is {name}! i am {age} years old.") 
+
+
+#using format function in another way
+a=10
+b=20
+print("sum of {} and {} is {}".format(a,b,a+b))
+
+
+
+#using eval function
+y=10
+x=eval("5+y")
+print(x)
+
+
+#sum of two values using eval function
+x=5
+y=5
+print(eval("x+y"))
+
+
+#using eval function print sum of all numbers
+print(eval("1+2+3+4+5"))
+
+
+
+#another eval function using input function
+x=int(input("enter x :"))
+y=int(input("enter y:"))
+res=eval("x*y")
+print(res)
+
+
+#using type function
+w="siva"
+x=10
+y=1j
+z=10.6
+l=[1,2,3]
+f=(1,2,3)
+b=True
+s={1,2,3}
+
+print(type(w))
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(l))
+print(type(b))
+print(type(f))
+print(type(s))
+
+
+#using end function
+print("hello" ,end=" ")
+print("world")
+
+print("python" , end =" is ")
+print("awesome")
+
