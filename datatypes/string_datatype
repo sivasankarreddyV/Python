@@ -1,0 +1,120 @@
+#assign sttring to a variable
+a="siva"
+print(a)
+
+
+#multiline strings
+a="""this is siva
+i am from kadapa
+i have no girl friend and
+i am concentrating on my career"""
+print(a)
+
+
+##strings or arrays
+a="Hello world"
+print(a[2])
+
+
+#looping through a string
+for x in "banana":
+    print(x)
+
+
+#string length
+a="siva reddy"
+print(len(a))
+
+
+#check string
+txt="i am want to go goa"
+print("goa" in txt)
+
+
+#Use it in an if statement
+txt="All are my friends are toxic"
+if "friends" in txt:
+    print("yeah")
+
+
+#check if not
+txt = "cricket i not a game, its an emotion"
+if "expensive" not in txt:
+    print("siva")
+
+
+#slicing
+#slice from the start
+a="siva reddy"
+print(a[:5])
+
+
+#slice from the end
+a="rajeswaari reddy"
+print(a[2:])
+
+
+#negative indexing:
+a="sankar reddy"
+print(a[-5:-1])
+
+
+#named indexes:
+txt1 = "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+#numbered indexes:
+txt2 = "My name is {0}, I'm {1}".format("John",36)
+#empty placeholders:
+txt3 = "My name is {}, I'm {}".format("John",36)
+print(txt1)
+print(txt2)
+print(txt3)
+
+
+# Input strings
+s1 = "Hello"
+s2 = "World"
+# Concatenating strings
+result = s1 + " " + s2
+print("Concatenated String:", result)
+
+
+# Input strings
+s1 = "Hello"
+s2 = "World"
+# Concatenating strings with f-strings
+result="{} {}".format(s1,s2)
+print(result)
+
+
+# Input strings
+s1 = "Hello"
+s2 = "World"
+# Concatenating strings with f-strings
+result = f"{s1} {s2}"
+print(result)
+
+
+# Input strings
+s1 = "Python"
+s2 = "is"
+s3 = "awesome"
+# Concatenating multiple strings
+result = s1 + " " + s2 + " " + s3
+print(result)
+
+
+#placeholders and modifiers
+price=10
+txt=f"i will give you {price} rupees"
+print(txt)
+
+#using : and .2f
+price=10
+txt=f"i will give you {price:.2f} rupees"
+print(txt)
+
+#using 10 * 10
+price=10
+txt=f"i will give you {10*10} rupees"
+print(txt)
+
