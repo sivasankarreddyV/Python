@@ -91,3 +91,35 @@ print(list)
 l=list(("siva", "sai", "Reddy"))
 print(l)
 
+
+#access elements
+list=["siva", "sai", "reddy"]
+print(list[0])
+
+
+#negative indexing
+list=["siva", "sai", "reddy"]
+print(list[-2])
+
+
+#range of indexes
+list=["siva", "sai", "reddy"]
+print(list[1:2])
+
+
+list=["siva", "sai", "reddy", "parni"]
+print(list[:2])
+
+list=["siva", "sai", "reddy", "parni"]
+print(list[2:])
+
+list=["siva", "sai", "reddy", "parni"]
+print(list[-4:-2])
+
+
+#access list items
+#check if items in list
+list=["siva", "sai", "Reddy"]
+if "sai" in list:
+    print("yes, 'sai' in the list")
+
