@@ -1,11 +1,12 @@
-#to print value error handling
+#to print exception handling
 try:
-    a="str"
-    b=1
-    print(a+b)
+    a=20
+    b=20
+    print(a/b)
 except Exception as e:
-    print("enter the right value")
+    print("divison by zero not possible")
 else:
-    print("successful")
+    print("divison successful")
 finally:
-    print('finally executes no matter what')
+    print('executes no matter what')
+)
