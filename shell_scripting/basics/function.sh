@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-
+#to print by using function
 name=$1
 hello(){
         echo "hiiii $1"
