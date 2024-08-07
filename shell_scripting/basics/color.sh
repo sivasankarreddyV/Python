@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-
+#to print by using colors
 red="\e[31m"
 green="\e[32m"
 yellow="\e[33m"
